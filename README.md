@@ -5,7 +5,20 @@ python3 main.py example example/O96017.pdb O96017 example/O96017_sav.txt MAESTRO
 
 
 ## Installation
+Download
+```bash
+main.py
+evolutionaryAnalysis.jl
+XGBoostClassifier.joblib
+```
+Required Input Files:
 
+```bash
+SAV file
+PDB file
+Orthologs file inFASTA format
+FATHMM output file
+```
 Required Packages
 
 Python Packages
