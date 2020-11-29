@@ -1,6 +1,6 @@
 # XGBClassifier
 
-XGBClassifier a Python library for predicting single amino acid variant pathogenicity.
+XGBClassifier： a tool for predicting single amino acid variant pathogenicity.
 
 ## Example
 ```bash
