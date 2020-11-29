@@ -17,7 +17,7 @@ Required Input Files:
 ```bash
 SAV file
 PDB file
-Orthologs file inFASTA format
+Orthologs file in FASTA format
 FATHMM output file
 ```
 Required Packages
