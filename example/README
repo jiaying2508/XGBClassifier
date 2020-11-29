@@ -1,4 +1,7 @@
 Required Input Files:
-[1] Orthologs file: CHEK2.fasta
-[2] FATHMM output file: O96017_fathmm.txt
-[3] PDB file: O96017.pdb
+```bash
+[1] SAV file, one per line: O96017_sav.txt
+[2] Orthologs file: CHEK2.fasta
+[3] FATHMM output file: O96017_fathmm.txt
+[4] PDB file: O96017.pdb
+```
