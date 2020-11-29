@@ -1,0 +1,17 @@
+FoldX 4 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: batch
+Output type: BuildModel
+Pdb	SD	total energy	Backbone Hbond	Sidechain Hbond	Van der Waals	Electrostatics	Solvation Polar	Solvation Hydrophobic	Van der Waals clashes	entropy sidechain	entropy mainchain	sloop_entropy	mloop_entropy	cis_bond	torsional clash	backbone clash	helix dipole	water bridge	disulfide	electrostatic kon	partial covalent bonds	energy Ionisation	Entropy Complex
+O96017_clean_Repair_1	0	2.16863	0.105333	0	1.32897	0.115481	-1.1001	2.31001	-2.59363e-05	-0.636417	0.183092	0	0	0	-0.137708	-0.0135624	0	0	0	0	0	0	0
+O96017_clean_Repair_2	0	-0.273092	0.509725	0.525985	0.0677521	-0.00677653	-0.0762905	0.157708	-0.0103317	-0.526158	-0.914483	0	0	0	-0.000222342	0	0	0	0	0	0	0	0
+O96017_clean_Repair_3	0	2.06937	0.0475212	7.84439e-12	0.81906	0.0117446	-0.328888	1.56844	-0.17572	-0.609394	0.711987	0	0	0	0.0246269	-0.0250427	-1.59872e-14	0	0	0	0	1.11022e-16	0
+O96017_clean_Repair_4	0	0.0547622	2.01271e-09	-7.81597e-12	0.141897	-5.86896e-09	-0.284866	0.213467	-3.74113e-05	-0.0528494	0.0470537	0	0	0	-0.0099029	-0.022094	1.59872e-14	0	0	0	0	0	0
+O96017_clean_Repair_5	0	1.14713	1.37293	1.35084	2.61943	-0.179677	-4.09135	2.7175	-0.143278	-1.74433	-0.753786	0	0	0	-0.00115527	-0.866189	-1.59872e-14	0	0	0	0	-2.22045e-16	0
+O96017_clean_Repair_6	0	7.36618	0.00191515	2.32634	0.220757	0.549838	-1.07484	-0.760598	3.85311	-1.24628	0.757775	0	0	0	2.7337	0.0328626	-1.59872e-14	0	0	0	0	0.00446134	0
+O96017_clean_Repair_7	0	2.28064	0.0861142	-1.51855	0.744456	-0.00791067	0.154628	1.89207	0.0552398	0.1847	0.5336	0	0	0	0.152209	-0.00764721	0.00407026	0	0	0	0	-3.08642e-14	0
+O96017_clean_Repair_8	0	0.579637	-0.0221694	0	-0.235492	0.000929604	0.14786	-0.0383556	-0.00261843	0.0704213	0.651504	0	0	0	0.00755638	-0.112577	0	0	0	0	0	0	0

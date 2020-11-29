@@ -1,0 +1,8 @@
+Ile157Ser
+Asn184Ser
+Val200Ala
+Val399Phe
+Arg117Gly
+Arg145Trp
+Ile448Ser
+Ile448Trp
