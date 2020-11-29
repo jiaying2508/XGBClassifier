@@ -1,0 +1,4 @@
+Required Input Files:
+[1] Orthologs file: CHEK2.fasta
+[2] FATHMM output file: O96017_fathmm.txt
+[3] PDB file: O96017.pdb
