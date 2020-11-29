@@ -21,8 +21,8 @@ pyrosetta
 ```
 Other Packages
 ```bash
-foldx/rotabase: in the same directory as main.py
-freesasa: command line tool, in the same directory as main.py
+foldx(rotabase.txt)
+freesasa: command line tool
 maestro: stand-alone software
 P2Rank: stand-alone software
 plmc-master: stand-alone software
