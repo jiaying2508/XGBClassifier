@@ -1,3 +1,0 @@
-#structure	seqlength	mutation	score	delta_score	ddG	ddG_confidence
-example/O96017_clean.pdb,A,bu	   410	wildtype	     -9.994156	      0.000000	      0.000000	      1.000000
-example/O96017_clean.pdb,A,bu	   410	I448.A{W}	     -9.967988	      0.026168	      0.095927	      0.919653
