@@ -43,3 +43,16 @@ plmc-master: stand-alone software
 clustal-omega: command line tool
 paup: command line tool
 ```
+## Usage
+Args
+```bash
+[1] working Dir: relative path
+[2] PDF file: full path
+[3] uniprot accession
+[4] SAV file (All SAVs should be from the SAME CHAIN; make sure all the SAVs are in the PDB)
+[5] MAESTRO directory
+[6] P2Rank directory
+[7] Orthologs file (including the human amino acid)
+[8] Protein accession
+[9] FATHMM output file
+```
