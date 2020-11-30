@@ -346,7 +346,7 @@ ll = (len(homoIndexList) - 1) * 0.2
 if evmutationfile in existingFiles:
     pass
 else:
-    os.system('plmc-master/bin/plmc -o {}.params -le {} -lh 0.01 -m 100 {}/evmutation_{}.txt'.format(proteinAccession, ll, workingDir, proteinAccession))
+    os.system('plmc-master/bin/plmc -o {}/{}.params -le {} -lh 0.01 -m 100 {}/evmutation_{}.txt'.format(workingDir, proteinAccession, ll, workingDir, proteinAccession))
 
 c = CouplingsModel('{}/{}.params'.format(workingDir, proteinAccession))
 singles = single_mutant_matrix(c, output_column='effect_prediction_epistatic')
