@@ -636,14 +636,14 @@ print('#')
 print('####################################################################')
 
 outputFile = open('{}/{}_xgboost_prediction.csv'.format(workingDir,uniprot), 'w')
-outputFile.write('uniprot,accession,prediction_proba,prediction,variation_nuumber,dScore,Score1,evmutation,FATHMM,FoldX,SASA,maestro,ANM,MS,effectiveness,sensitivity,pyrosetta_mutant,pyrosetta_diff,active_site\n')
+outputFile.write('uniprot,accession,sav,prediction_proba,prediction,variation_nuumber,dScore,Score1,evmutation,FATHMM,FoldX,SASA,maestro,ANM,MS,effectiveness,sensitivity,pyrosetta_mutant,pyrosetta_diff,active_site\n')
 for sav in sav_dict.keys():
     data = sav_dict[sav]
     #print(data)
     data = np.array([data])
     proba = xgboost.predict_proba(data)[0][1]
     p = xgboost.predict(data)[0]
-    outputFile.write('{},{},{},{}'.format(uniprot, proteinAccession,proba,p))
+    outputFile.write('{},{},{},{},{}'.format(uniprot, proteinAccession,sav,proba,p))
     for k in sav_dict[sav]:
         outputFile.write(',{}'.format(k))
     outputFile.write('\n')
